@@ -1,0 +1,210 @@
+body {
+  font: Montserrat-Black;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 100px;
+}
+
+#features {
+  text-align: center;
+  /* margin: 0 5%; */
+  position: relative;
+  /* z-index: 1; */
+  background-color: #fff;
+  padding-top: 100px;
+  /* margin-top: 100px; */
+}
+
+h1 {
+  font: Montserrat-Black;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Download button */
+.Download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title images */
+.title-img {
+  width: 60%;
+  margin-left: 25px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.fa-solid:hover {
+  text-shadow: 0;
+  color: #ff4c68;
+  /* transform: scale(1.05); */
+  /* animation: 1.9s; */
+}
+
+.fa-solid {
+  /* transform: scale(2); */
+  color: #ef8172;
+  font-size: 10rem;
+  margin-bottom: 25px;
+}
+
+.fea:hover {
+  animation: .2s;
+  transform: scale(1.05);
+}
+.fea:hover{
+  animation: 2s;
+  position: relative;
+  bottom: 50px;
+}
+.fea {
+  padding: 5%;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.row h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dog-img {
+  border-radius: 100%;
+  width: 20%;
+  margin: 5% 1% 0 10%;
+}
+
+.press-img {
+  margin: 0 2%;
+  width: 15%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.carousel-item {
+  padding: 7% 15% 3%;
+}
+
+#pricing {
+  padding: 10%;
+  text-align: center;
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+
+.card {
+  margin: 10%;
+}
+
+.card-body {
+  background-color: #182747;
+  color: #fff;
+}
+
+.card:hover, .body-1:hover, .body-2:hover, .body-3:hover {
+  color: #FFDB58;
+  margin-top: 20px;
+  background-color: #000;
+  /* transform: scale(1.05); */
+}
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+    padding: 0%;
+  }
+  .dog-img{
+    margin-left: 25%;
+    width: 30%;
+  }
+  #cta h3{
+    padding: 10px;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    /* background-color: blue; */
+  }
+}
+@media (max-width: 1200px) {
+  #features p{
+      margin: 0 10%;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 10% 20% 8%;
+  text-align: center;
+}
+#cta h3{
+  color: #fff;
+  font-family: Montserrat-black,sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+#cta .btn{
+  padding: 10px 15px;
+  margin: 7% 2% 0;
+}
+#footer{
+  text-align: center;
+  font-family: Montserrat-black,sans-serif;
+  padding: 5% 5% 2%;
+}
+.fa-brand{
+  margin: 10px;
+  font-size: 1.2rem;
+  color: #000;
+}
+.fa-brand:hover{
+  font-size: 1.2rem;
+  color: #000;
+}
+.fa-brands{
+  font-size: 1.2rem;
+  margin: 10px;
+}
+.social-logo{
+  padding: 2%;
+}
